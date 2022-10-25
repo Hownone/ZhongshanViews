@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhongshan Views</title>
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- bootstrap-css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!--// bootstrap-css -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!--// css -->
+
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="banner jarallax">
+        <div class="agileinfo-dot">
+            <div class="header-top">
+                <div class="header-top-grids">
+                    <div class="header-top-left">
+                        <p><i class="fa fa-power-off" aria-hidden="true"></i></p>
+                    </div>
+                    <div class="header-top-right">
+                        <div class="agileinfo-social-grids">
+
+                        </div>
+
+                        <div class="header-top-right-text">
+                            <p><i class="fa fa-home" aria-hidden="true"></i> 中山美景 </p>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="head">
+                <div class="head-nav-grids">
+                    <div class="navbar-top">
+                        <div class="navbar-header">
+                            <!-- 页面缩小时导航栏缩成一个button，自适应屏幕大小，兼容手机 -->
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="navbar-brand logo ">
+                                <h1><a href="index.html">Zhongshan <span>Views</span></a></h1>
+                            </div>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav link-effect-4">
+                                <li class="active"><a href="index.html" data-hover="Home">主页</a> </li>
+                                <li><a href="about.html" data-hover="About">分享</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="header-left"></div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="banner-slider">
+                <div class="banner-top-slider">
+                    <div class="slider">
+                        <div class="callbacks_container">
+                            <ul class="rslides callbacks callbacks1" id="slider4">
+                                <li>
+                                    <div class="agileits-banner-info">
+                                        <h3>中山<span>欢迎你</span></h3>
+                                        <div class="w3-button">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="agileits-banner-info">
+                                        <h3>公为天下<span>敢为人先</span></h3>
+                                        <div class="w3-button">
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"> </div>
+                        <!-- 轮播图 -->
+                        <!-- 调用responsiveSlides API -->
+                        <script src="js/responsiveslides.min.js"></script>
+                        <script>
+                            $(() => {
+                                $("#slider4").responsiveSlides({
+                                    auto: true,
+                                    pager: true,
+                                    nav: true,
+                                    speed: 500,
+                                    namespace: "callbacks",
+
+                                });
+                            })
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="special">
+
+    </div>
+
+
+</body>
+
+</html>

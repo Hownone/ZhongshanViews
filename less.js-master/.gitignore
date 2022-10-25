@@ -1,0 +1,14 @@
+# OS and IDE
+.emacs*
+*.flymake
+*~
+.#*
+.idea
+*.iml
+*.sublime-*
+.DS_Store
+
+# npm
+node_modules
+!package-lock.json
+npm-debug.log
