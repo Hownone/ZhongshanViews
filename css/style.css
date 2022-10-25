@@ -443,7 +443,7 @@ ul.dropdown-menu li a:hover {
 	padding:4em 0;
 }
 .agileinfo-heading h3{
-	color: #FF5722;
+	color: #ad8a80;
     font-size: 4em;
     text-align: center;
     margin: 0;
@@ -484,7 +484,7 @@ ul.dropdown-menu li a:hover {
 /*-- //welcome --*/
 /*-- special --*/
 .special {
-    background: #ebfdfb;
+    background: #130056;
     box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2), 0 0px 0px rgba(0, 0, 0, 0);
 }
 .special-grids .special-img {
@@ -1975,7 +1975,7 @@ figure.effect-winston:hover p:first-child span{
 		padding: 8px 4px;
 		font-size: .9em;
 	}
-	.w3-header-top-right {
+	.header-top-right {
 		width: 35%;
 	}
 	.contact-form input[type="text"] {
@@ -1996,7 +1996,7 @@ figure.effect-winston:hover p:first-child span{
 	}
 }
 @media(max-width:991px){
-	.w3-header-top-left {
+	.header-top-left {
 		width: 20%;
 	}
 	.agileits-welcome-left {
@@ -2070,12 +2070,12 @@ figure.effect-winston:hover p:first-child span{
 	.wthree-history-info h4 {
 		letter-spacing: 4px;
 	}
-	.w3-header-top-right {
+	.header-top-right {
 		width: 50%;
 	}
 }
 @media(max-width:768px){
-	.w3-header-top-left {
+	.header-top-left {
 		width: 25%;
 	}
 	.agileits-banner-info h3 {
@@ -2141,7 +2141,7 @@ figure.effect-winston:hover p:first-child span{
 	.header-top {
 		padding: 1em 1em;
 	}
-	.w3-header-top-right {
+	.header-top-right {
 		width: 57%;
 	}
 }
@@ -2160,10 +2160,10 @@ figure.effect-winston:hover p:first-child span{
 	}
 }
 @media(max-width:568px){
-	.w3-header-top-left {
+	.header-top-left {
 		width: 27%;
 	}
-	.w3-header-top-right {
+	.header-top-right {
 		width: 63%;
 	}
 	.logo h1 a {
@@ -2186,12 +2186,12 @@ figure.effect-winston:hover p:first-child span{
 	}
 }
 @media(max-width:480px){
-	.w3-header-top-left {
+	.header-top-left {
 		width: 100%;
 		float: none;
 		text-align: center;
 	}
-	.w3-header-top-right {
+	.header-top-right {
 		width: 100%;
 		float: none;
 		margin: 1em 0 0 0;
@@ -2200,10 +2200,10 @@ figure.effect-winston:hover p:first-child span{
 		font-size: 2em;
 		letter-spacing: 8px;
 	}
-	.agileinfo-heading h3,.w3-agile-main-heading h2 {
+	.agileinfo-heading h3,.agile-main-heading h2 {
 		font-size: 3em;
 	}
-	.welcome, .special, .history-dot, .wthree-subscribe, .w3-agile-footer, .typography, .codes, .gallery, .contact-content, .w3l-about-top, .team, .events {
+	.welcome, .special, .history-dot, .wthree-subscribe, .agile-footer, .typography, .codes, .gallery, .contact-content, .w3l-about-top, .team, .events {
 		padding: 2em 0;
 	}
 	.agileits-welcome-grids, .special-top-grids,.agileits-team-grids,.w3l-event-grids{
@@ -2218,10 +2218,10 @@ figure.effect-winston:hover p:first-child span{
 	.wthree-history-info a {
 		width: 25%;
 	}
-	.w3-agileits-subscribe-form {
+	.agileits-subscribe-form {
 		margin: 2em 0 0 0;
 	}
-	.w3-agileits-subscribe-form input[type="text"] {
+	.agileits-subscribe-form input[type="text"] {
 		padding: .5em;
 	}
 	button.btn1 {
@@ -2348,7 +2348,7 @@ figure.effect-winston:hover p:first-child span{
 		float: none;
 		text-align: center;
 	}
-	.w3-header-top-right-text {
+	.header-top-right-text {
 		float: none;
 		text-align: center;
 		margin: .5em 0 0 0;
@@ -2383,14 +2383,14 @@ figure.effect-winston:hover p:first-child span{
 	.wthree-history-info a {
 		width: 33%;
 	}
-	.w3-agileits-subscribe-form input[type="text"] {
+	.agileits-subscribe-form input[type="text"] {
 		width: 50%;
 	}
 	.agileits_tom_right {
 		width: 77%;
 		margin-left: .5em;
 	}
-	.agileinfo-heading h3, .w3-agile-main-heading h2 {
+	.agileinfo-heading h3, .agile-main-heading h2 {
 		font-size: 2.5em;
 	}
 }
