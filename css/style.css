@@ -40,55 +40,14 @@ body{
     float: right;
     width: 26%;
 }
-.agileinfo-social-grids {
-    float: left;
-}
+
 .header-top-right-text {
     float: right;
 }
 .header-top-right p{
 	color:#FFFFFF;
 }
-/*-- social-icons --*/
-.agileinfo-social-grids{
-    margin-left: 0;
-}
-.agileinfo-social-grids ul{
-	padding:0;
-	margin:0;
-}
-.agileinfo-social-grids ul li{
-    display: inline-block;
-}
-.agileinfo-social-grids ul li a {
-	color: #FFFFFF;
-    text-align: center;
-}
-.agileinfo-social-grids ul li a i.fa{
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.agileinfo-social-grids ul li a i.fa.fa-facebook:hover {
-    color: #3b5998;
-}
-.agileinfo-social-grids ul li a i.fa.fa-twitter{
-	margin:0 1em;
-}
-.agileinfo-social-grids ul li a i.fa.fa-twitter:hover{
-	color: #55acee;
-}
-.agileinfo-social-grids ul li a i.fa.fa-rss{
-	margin:0 1em 0 0;
-}
-.agileinfo-social-grids ul li a i.fa.fa-rss:hover{
-	color: #f26522;
-}
-.agileinfo-social-grids ul li a i.fa.fa-vk:hover{
-	color: #45668e;
-}
+
 .agileinfo-dot {
 	background: url(../images/dott.png)repeat 0px 0px;
     background-size: 3px;
@@ -587,7 +546,7 @@ img.img-responsive {
     letter-spacing: 6px;
     margin: .5em 0 0 0;
 }
-.footer-grid-info,.social,.agile-footer-grid,.agile-footer-info {
+.footer-grid-info,.agile-footer-grid,.agile-footer-info {
     margin: 1em 0 0 0;
 }
 .footer-grid-info  p,.agile-footer-info p{
@@ -622,118 +581,8 @@ img.img-responsive {
 .footer-grid-info ul li a:hover{
 	color: #ffffff;
 }
-.social-grid{
-    margin: 1em 0 0 0;	
-}
-.social ul{
-	padding:0;
-	margin:0;
-}
-.social ul li{
-	display:inline-block;
-}
-.social ul li a {
-	color: #333;
-    text-align: center;
-}
-.social ul li a i.fa.fa-facebook{
-    height: 40px;
-    width: 40px;
-    background: #383838;
-    line-height: 40px;
-    color: #FFF;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
-.social ul li a i.fa.fa-facebook:hover {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-	background: #3b5998;
-}
-.social ul li a i.fa.fa-twitter{
-    height: 40px;
-    width: 40px;
-    background: #383838;
-    line-height: 40px;
-    color: #FFF;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
-.social ul li a i.fa.fa-twitter:hover{
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-	background: #1da1f2;
-}
-.social ul li a i.fa.fa-rss{
-    height: 40px;
-    width: 40px;
-    background: #383838;
-    line-height: 40px;
-    color: #FFF;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
-.social ul li a i.fa.fa-rss:hover{
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-	background: #f26522;
-}
-.social ul li a i.fa.fa-vk{
-    height: 40px;
-    width: 40px;
-    background: #383838;
-    line-height: 40px;
-    color: #FFF;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
-.social ul li a i.fa.fa-vk:hover{
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-	background: #45668e;
-}
-.social ul li:nth-child(2){
-	margin:0 .5em;
-}
-.social ul li:nth-child(3){
-	margin:0 .5em 0 0;
-}
+
+
 .agileits-copyright {
     text-align: center;
     margin: 2em 0 0 0;
@@ -846,101 +695,7 @@ ul.footer_grid_list i.fa.fa-twitter {
 	-o-transform: rotatey(360deg);
 	-ms-transform: rotatey(360deg);
 } 
-/*-- team --*/
-.team{
-	padding:4em 0;
-	background:url(../images/bg.jpg) no-repeat 0px 0px;
-	background-size:cover;
-}
-.wthree-team-heading h3{
-	color:#FFFFFF;
-}
-.team-heading {
-    text-align: center;
-}
-.team-heading p{
-    color: #000000;
-    font-size: .9em;
-    margin: 1em auto 0;
-    width: 40%;	
-}
-.agileits-team-grids {
-    margin: 4em 0 0 0;
-}
-.team-info{
-    position: relative;
-    overflow: hidden;	
-}
-.team-info img{
-	width:100%;
-	border:solid 2px #333333;
-}
-.team-caption h4{
-    color: #FFFFFF;
-    font-size: 1.5em;
-    font-weight: 600;
-    margin: .5em 0 0 0;
-}
-.team-caption p{
-	color: #ffb3ac;
-    font-size: .9em;
-    margin: 0;
-}
-.team-caption ul{
-    padding: 0;
-    margin: 1em 0 0 0;
-}
-.team-caption ul li{
-    display: inline-block;
-}
-.team-caption ul li a {
-	color: #333;
-    text-align: center;
-}
-.team-caption ul li a i.fa{
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    border: solid 2px #FFF;
-    background: none;
-    color: #FFF;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.team-caption ul li a i.fa.fa-facebook:hover {
-    background: #3b5998;
-}
-.team-caption ul li a i.fa.fa-twitter:hover{
-	background: #55acee;
-}
-.team-caption ul li a i.fa.fa-rss:hover{
-	background: #f26522;
-}
-.team-caption {
-	background: #ff5722;
-    padding: 1em;
-    position: absolute;
-    left: 0;
-    bottom: -105%;
-    text-align: center;
-    width: 100%;
-    height: 154px;
-	transition: .5s all;
-    -webkit-transition: .5s all;
-    -moz-transition: .5s all;
-    -ms-transition: .5s all;
-    -o-transition: .5s all;
-}
-.team-info:hover .team-caption{
-    bottom: 0%;
-}
-.team-info:hover .team-caption {
-    bottom: 0%;
-}
-/*-- //team --*/
+
 /*-- events --*/
 .events{
 	padding:4em 0;
@@ -2260,10 +2015,6 @@ figure.effect-winston:hover p:first-child span{
 	}
 }
 @media(max-width:384px){
-	.agileinfo-social-grids {
-		float: none;
-		text-align: center;
-	}
 	.header-top-right-text {
 		float: none;
 		text-align: center;
