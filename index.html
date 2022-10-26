@@ -50,10 +50,6 @@
                         <p><i class="fa fa-power-off" aria-hidden="true"></i></p>
                     </div>
                     <div class="header-top-right">
-                        <div class="agileinfo-social-grids">
-
-                        </div>
-
                         <div class="header-top-right-text">
                             <p><i class="fa fa-home" aria-hidden="true"></i> 中山美景 </p>
                         </div>
@@ -511,11 +507,51 @@
 
                     <div class="clearfix"></div>
                 </div>
-
             </div>
         </div>
-
     </div>
+
+
+    <div class="agile-footer" style="text-align: center;">
+        <div class="footer-grid-heading">
+            <h4>Welcome To Zhongshan</h4>
+            <br>
+            <h3><a href="https://www.baidu.com" target="_blank"><span><i class="fa fa-safari"
+                            aria-hidden="true"></i>More</span></a>
+                &nbsp; | &nbsp; <a href="https://github.com/Hownone/" target="_blank"><span><i class="fa fa-github"
+                            aria-hidden="true"></i>Author</span> </a></h3>
+        </div>
+        <div class="footer-grid-info">
+            <p>Copyright @Hownone Ho</p>
+            <p><i class="fa fa-envelope-o" aria-hidden="true"></i> hownoneho@gmail.com </p>
+
+        </div>
+    </div>
+
+    <script src="js/SmoothScroll.min.js"></script>
+    <script src="js/jarallax.js"></script>
+    <script type="text/javascript">
+        /* init Jarallax */
+        $('.jarallax').jarallax({
+            speed: 0.5,
+            imgWidth: 1366,
+            imgHeight: 768
+        })
+    </script>
+
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <!-- 动画缓动函数 -->
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        $(document).ready(() => {
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+        });
+    </script>
+
+
+
 
 
 </body>
