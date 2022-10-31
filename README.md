@@ -3,26 +3,27 @@
 ## 开源图标库
 
 http://www.fontawesome.com.cn/
-```
+
+```HTML
     <!-- font-awesome icons -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <!-- //font-awesome icons -->
 ```
 
 ## 幻灯片插件 ResponsiveSlides
-```
-  <script src="js/responsiveslides.min.js"></script>
-                        <script>
-                            $(() => {
-                                $("#slider4").responsiveSlides({
-                                    auto: true,
-                                    pager: true,
-                                    nav: true,
-                                    speed: 500,
-                                    namespace: "callbacks",
-                                });
-                            })
-  </script>
+```javascript
+<script src="js/responsiveslides.min.js"></script>
+<script>
+       $(() => {
+                 $("#slider4").responsiveSlides({
+                       auto: true,
+                       pager: true,
+                       nav: true,
+                       speed: 500,
+                       namespace: "callbacks",
+                  });
+              })
+</script>
 ```
 
 ![ResponsiveSlides_api.png](https://cdn.acwing.com/media/article/image/2022/10/31/118375_ed6c134358-ResponsiveSlides_api.png)
@@ -33,9 +34,9 @@ http://iamdustan.com/smoothscroll/
 
 ## 视差滚动插件： Jarallax
 
-```
+```javascript
  <script src="js/jarallax.js"></script>
-    <script type="text/javascript">
+ <script type="text/javascript">
         /* init Jarallax */
         $('.jarallax').jarallax({
             speed: 0.5,
@@ -60,7 +61,7 @@ http://iamdustan.com/smoothscroll/
                 easingType: 'easeOutQuart'
             });
         });
- </script>详细
+ </script>
 ```
 
 
