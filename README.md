@@ -12,18 +12,18 @@ http://www.fontawesome.com.cn/
 
 ## 幻灯片插件 ResponsiveSlides
 ```javascript
-<script src="js/responsiveslides.min.js"></script>
-<script>
-       $(() => {
-                 $("#slider4").responsiveSlides({
-                       auto: true,
-                       pager: true,
-                       nav: true,
-                       speed: 500,
-                       namespace: "callbacks",
-                  });
-              })
-</script>
+                        <script src="js/responsiveslides.min.js"></script>
+                        <script>
+                            $(() => {
+                                $("#slider4").responsiveSlides({
+                                    auto: true,
+                                    pager: true,
+                                    nav: true,
+                                    speed: 500,
+                                    namespace: "callbacks",
+                                });
+                            })
+                        </script>
 ```
 
 ![ResponsiveSlides_api.png](https://cdn.acwing.com/media/article/image/2022/10/31/118375_ed6c134358-ResponsiveSlides_api.png)
